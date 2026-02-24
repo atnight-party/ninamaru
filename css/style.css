@@ -341,6 +341,25 @@ ul {
   text-shadow: 0 0 10px rgba(255, 20, 147, 0.5);
 }
 
+/* ---------- Flyer ---------- */
+.flyer {
+  background: var(--bg-dark);
+}
+
+.flyer__img-wrapper {
+  max-width: 480px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(255, 20, 147, 0.15), 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.flyer__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* ---------- Event Rule ---------- */
 .rule {
   background: linear-gradient(180deg, var(--bg-dark) 0%, rgba(0, 212, 255, 0.03) 50%, var(--bg-dark) 100%);
