@@ -333,6 +333,15 @@ ul {
   background: linear-gradient(180deg, var(--bg-dark) 0%, rgba(0, 212, 255, 0.03) 50%, var(--bg-dark) 100%);
 }
 
+.rule__lead {
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--text-sub);
+  margin-top: -32px;
+  margin-bottom: 40px;
+}
+
 .rule__list {
   display: flex;
   flex-direction: column;
@@ -367,8 +376,21 @@ ul {
   line-height: 1.4;
 }
 
+.rule__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.rule__heading {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 6px;
+}
+
 .rule__text {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--text-sub);
   line-height: 1.8;
 }
@@ -487,7 +509,7 @@ ul {
 }
 
 .accordion__content.is-open {
-  max-height: 800px;
+  max-height: 2000px;
 }
 
 .accordion__body {
