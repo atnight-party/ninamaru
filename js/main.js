@@ -139,15 +139,15 @@
       trigger.setAttribute("aria-expanded", String(!expanded));
 
       if (expanded) {
-        content.classList.remove("is-open");
+        content.style.maxHeight = "0";
         setTimeout(() => {
           content.hidden = true;
-        }, 400);
+        }, 500);
       } else {
         content.hidden = false;
         // Force reflow for transition
         void content.offsetHeight;
-        content.classList.add("is-open");
+        content.style.maxHeight = content.scrollHeight + "px";
       }
     });
   });

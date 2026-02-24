@@ -184,9 +184,9 @@ ul {
   inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(10, 10, 20, 0.3) 0%,
-    rgba(10, 10, 20, 0.5) 50%,
-    rgba(10, 10, 20, 0.9) 100%
+    rgba(10, 10, 20, 0.55) 0%,
+    rgba(10, 10, 20, 0.7) 50%,
+    rgba(10, 10, 20, 0.92) 100%
   );
 }
 
@@ -499,17 +499,13 @@ ul {
 
 .accordion__content {
   overflow: hidden;
-  transition: max-height 0.4s ease;
   max-height: 0;
+  transition: max-height 0.5s ease;
 }
 
 .accordion__content[hidden] {
   display: block !important;
   max-height: 0;
-}
-
-.accordion__content.is-open {
-  max-height: 2000px;
 }
 
 .accordion__body {
