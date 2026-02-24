@@ -421,10 +421,32 @@ ul {
   margin-bottom: 6px;
 }
 
+.rule__warning {
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #ff3b3b;
+  text-shadow: 0 0 10px rgba(255, 59, 59, 0.5);
+  margin-bottom: 40px;
+}
+
 .rule__text {
   font-size: 0.9rem;
   color: var(--text-sub);
   line-height: 1.8;
+}
+
+.rule__text-list {
+  font-size: 0.9rem;
+  color: var(--text-sub);
+  line-height: 1.8;
+  padding-left: 1.2em;
+  list-style: disc;
+}
+
+.rule__text-list li {
+  margin-bottom: 2px;
 }
 
 /* ---------- Entry Form ---------- */
